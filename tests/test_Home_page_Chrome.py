@@ -15,7 +15,7 @@ def setup():
 
 
 def test_website_title_chrome(setup):
-    driver.get('https://www.youtube.com')
+    driver.get('https://www.google.com')
     title = driver.title
     # pyautogui.alert(text = f'{item}')
     if title == 'Google':

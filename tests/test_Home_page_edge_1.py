@@ -15,7 +15,7 @@ def setup():
 
 
 def test_website_title_edge(setup):
-    driver.get('https://www.facebook.com')
+    driver.get('https://www.google.com')
     title = driver.title
     # pyautogui.alert(text = f'{item}')
     if title == 'Google':
